@@ -1,4 +1,5 @@
-﻿using NotaFiscalTDD.Model;
+﻿using NotaFiscalTDD.Controller;
+using NotaFiscalTDD.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,10 +19,6 @@ namespace NotaFiscalTDD
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            
         }
     }
 }
-Implementar um sistema de gerac¸ao de nota fiscal a partir de uma fatura..O gerador de nota ´
-fiscal devera gerar uma nota fiscal que cont ´ em nome do cliente, valor da nota e valor do ´
-imposto a ser pago

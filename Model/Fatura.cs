@@ -8,11 +8,12 @@ namespace NotaFiscalTDD.Model
 {
     public class Fatura
     {
-        public Fatura(string nome, string endereco, double valor)
+        public Fatura(string nome, string endereco, double valor,TipoServico servico)
         {
             Nome = nome;
             Endereco = endereco;
             Valor = valor;
+            Servico = servico;
         }
 
         public Fatura()
@@ -29,6 +30,6 @@ namespace NotaFiscalTDD.Model
         public string Nome { get; set; }
         public string Endereco { get; set; }
         public double Valor { get; set; }
-
+        public TipoServico Servico { get; set; }
     }
 }
