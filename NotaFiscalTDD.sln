@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaFiscalTDD", "NotaFiscalTDD.csproj", "{9AF2B8BB-CC18-4F6F-B9E5-AE8D8C0F243D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestNotaFiscalTDD", "..\UnitTestNotaFiscalTDD\UnitTestNotaFiscalTDD.csproj", "{4157C989-D882-403D-A8CB-62286221386E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestNotaFiscalTDD", "UnitTestNotaFiscalTDD\UnitTestNotaFiscalTDD.csproj", "{4157C989-D882-403D-A8CB-62286221386E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
